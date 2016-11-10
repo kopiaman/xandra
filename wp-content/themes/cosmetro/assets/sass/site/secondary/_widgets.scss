@@ -1,0 +1,41 @@
+.widget {
+	margin: 0 0 10px;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 30px;
+	}
+	.sidebar &,
+	.before-content-area &,
+	.after-content-area &,
+	.before-loop-area &,
+	.after-loop-area & {
+		@include card;
+	}
+	select {
+		max-width: 100%;
+	}
+}
+
+.full-width-header-area {
+	margin: -30px 0 0 0;
+}
+
+.tm_banners_grid_widget_banner {
+	margin-bottom: 20px;
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 27px;
+	}
+	@include media-breakpoint-up(xl) {
+		margin-bottom: 55px;
+	}
+	.tm_banners_grid_widget_banner_wrapper {
+		width: 100%;
+		.tm_banners_grid_widget_banner_link,
+		.tm_banners_grid_widget_banner_link img,
+		img {
+			width: 100%;
+		}
+	}
+	.tm_banners_grid_widget_banner_link img {
+		width: 100%;
+	}
+}

@@ -1,0 +1,33 @@
+.breadcrumbs {
+	position: relative;
+	margin: 0 0 20px;
+	text-align: center;
+	&__title {
+		margin-right: 30px;
+		padding-right: 30px;
+		text-align: left;
+		.page-title {
+			margin: 0;
+		}
+	}
+	&__items {
+		display: inline-block;
+	}
+	&__browse {
+		float: left;
+		margin-right: 10px;
+	}
+	&__wrap {
+		float: left;
+		margin: 0;
+		@media (min-width: 992px) {
+			margin: 4px 0;
+		}
+	}
+	&__item {
+		float: left;
+		&-sep {
+			margin: 0 10px;
+		}
+	}
+}

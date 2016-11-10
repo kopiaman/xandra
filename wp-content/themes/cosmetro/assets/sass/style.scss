@@ -1,0 +1,139 @@
+/*!
+Theme Name: Cosmetro
+Theme URI: https://themeforest.net/user/jetimpex/portfolio
+Author: Jetimpex
+Author URI: https://themeforest.net/user/jetimpex
+Description: Cosmetro - modern and eye catching WordPress eCommerce theme for cosmetics, fashion, skin care or perfumes store. The theme comes with a huge set of widgets and optimized for Woocommerce plugin and TM WooPack extension.
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: cosmetro
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+cosmetro is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+	## Social List
+# Accessibility
+# Alignments
+# Clearings
+# Grid
+# Widgets
+# Content
+	## Posts and pages
+	## Asides_normalize
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "wootheme/mixins-wootheme";
+@import "mixins/mixins-master";
+@import "mixins/mixins-transform";
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+// @import "typography/typography";
+/*--------------------------------------------------------------
+# Grid
+--------------------------------------------------------------*/
+@import "grid/grid";
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+@import "elements/page-preloader";
+@import "elements/totop-button";
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+// @import "navigation/navigation";
+@import "navigation/breadcrumbs";
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+@import "modules/comments";
+/*--------------------------------------------------------------
+# Author Bio
+--------------------------------------------------------------*/
+@import "modules/author-bio";
+/*--------------------------------------------------------------
+# Share Buttons
+--------------------------------------------------------------*/
+@import "modules/share";
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+@import "card/card";
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+@import "widgets/cosmetro-widget-image-grid";
+@import "widgets/cosmetro-widget-taxonomy-tiles";
+@import "widgets/cosmetro-widget-carousel-slider";
+@import "widgets/taxonomy-tiles";
+@import "widgets/cosmetro-widget-smart-slider";
+@import "widgets/cosmetro-widget-about-author";
+@import "widgets/instagram";
+@import "widgets/contact-form-7";
+@import "widgets/widget-give";
+@import "widgets/track-kickstarter-project";
+@import "widgets/facebook-pagelike-widget";
+@import "widgets/widget-default";
+@import "widgets/custom_posts";
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+@import "pages/pages";
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+/*--------------------------------------------------------------
+# TM Wooccommerce styles
+--------------------------------------------------------------*/
+@import "wootheme/woothemestyles";
