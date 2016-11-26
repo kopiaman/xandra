@@ -27,7 +27,7 @@
 
 			<main id="main" class="site-main">
 
-				<?php include cosmetro_template_path(); ?>
+				<?php  include cosmetro_template_path(); ?>
 
 			</main><!-- #main -->
 

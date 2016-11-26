@@ -82,6 +82,8 @@ if (!class_exists('Cosmetro_Theme_Setup')) {
 			add_action('wp_enqueue_scripts', array($this, 'enqueue_assets'), 10);
 
 			add_filter('cosmetro_get_theme_core', array($this, 'get_core'));
+
+			
 		}
 
 		/**
